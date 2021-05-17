@@ -20,3 +20,4 @@ wttks <- tbl(con, in_schema("tkd", "w_ttks")) %>%
 wttks2 <- wttks %>% 
   select(ticketid, fecha, configuracion, description) %>% 
   filter(str_detect(configuracion, modelos))
+# Realizando pruebas curso de Git y GitHub
